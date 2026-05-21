@@ -10,4 +10,4 @@ RUN echo "eula=true" > eula.txt
 
 EXPOSE 25565
 
-CMD ["java", "-Xms128M", "-Xmx384M", "-jar", "server.jar", "--nogui"]
+CMD ["java", "-Xms511M", "-Xmx511M", "-jar", "server.jar", "--nogui"]
